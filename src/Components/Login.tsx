@@ -30,14 +30,17 @@ const buttonHandler = async(event: React.MouseEvent<HTMLButtonElement>) => {
       const loginDetails = await response.json();
       for (let i = 0; i < loginDetails.length; i++) {
         if (
-          loginDetails[i].email === login_email &&
-          loginDetails[i].password === login_password
+          loginDetails[i].email === loginInput.login_email &&
+          loginDetails[i].password === loginInput.login_password
         ) {
           alert("Login Success");
-          history.push("/");
+          history.push("/dashboard");
         } else {
-          alert("Wrong Credentials");
-          history.push("/login");
+          alert("Login Failure");
+          setLoginInput({
+            login_email:"",
+            login_password:"",
+          })
         }
       }
     } catch (error) {

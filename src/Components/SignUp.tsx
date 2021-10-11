@@ -66,12 +66,26 @@ const handleSubmit = async(e: React.FormEvent<HTMLFormElement>)=>{
           history.push("/login");
         } catch (error) {
           console.log(error)
-          history.push("/signup");
+          history.push("/");
+          setInput({
+            full_name: "",
+            date: "",
+            email: "",
+            password: "",
+            c_password: "",
+          });
         }
       }else{
         alert(
           "Strong Password Required, At least one Uppercase, one Lowercase, one Special Character and one Number"
-        );
+      );
+      setInput({
+        full_name: "",
+        date: "",
+        email: "",
+        password: "",
+        c_password: "",
+      });
       }
   }
 

@@ -9,13 +9,13 @@ export const Routes = () => {
     return (
         <>
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/dashboard">
                 <Dashboard/>
                 </Route>
                 <Route path="/login">
                     <Login/>
                 </Route> 
-                <Route path="/signup">
+                <Route path="/">
                    <SignUp/>
                 </Route>
             </Switch>
