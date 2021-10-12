@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import "../CSS/styles.css";
-import micro_bank from "./imgs/micro_bank.svg";
-import bell from "./imgs/bell.png";
-import arrow from "./imgs/down_arrow.svg";
 import current_acc from "./imgs/current_acc.svg";
 import payroll from "./imgs/payroll.svg";
 import payments from "./imgs/payments.svg";
@@ -18,6 +15,9 @@ import investments from "./imgs/investments.svg";
 import tax_payment from "./imgs/tax_payments.svg";
 import loans from "./imgs/loans.svg";
 import { Rating } from "./Rating";
+import { Header } from "./Header";
+import {Link} from "react-router-dom"
+
 
 export const Dashboard = () => {
   const [currentAccountRate, setCurrentAccountRate] = useState(0);
@@ -39,35 +39,7 @@ export const Dashboard = () => {
   return (
     <>
       <div className="dashboard">
-        <nav className="nav-bar">
-          <div className="mob-nav">
-            <li className="hamburger">
-              <div></div>
-              <div></div>
-              <div></div>
-            </li>
-            <li className="header-mobile">Micro Bank</li>
-            <li className="mob-logout">Logout</li>
-          </div>
-          <div className="nav-list">
-            <div className="nav-logo">
-              <img src={micro_bank} alt="micro_bank" />
-            </div>
-            <div className="nav-items">
-              <li>
-                <img src={bell} alt="bell" />
-              </li>
-              <li>
-                <a href="login.html" id="user-name">
-                  PV
-                </a>
-              </li>
-              <li>
-                <img src={arrow} alt="arrow" />
-              </li>
-            </div>
-          </div>
-        </nav>
+        <Header/>
       </div>
       <div className="dashboard">
         <p>Dashboard</p>
@@ -78,7 +50,7 @@ export const Dashboard = () => {
         </div>
         <div className="details">
           <p>
-            <a href="details.html">Details</a>
+            <Link to="/details">Details</Link>
           </p>
         </div>
       </div>
