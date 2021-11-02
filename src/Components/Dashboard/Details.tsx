@@ -1,11 +1,9 @@
 import React from 'react'
-import { Header } from './Header'
+import { Header } from '../Navbar/Header'
 import { Link } from 'react-router-dom'
-import redeye from "./imgs/red_eye.svg"
-import download from "./imgs/download.svg"
+import redeye from "../imgs/red_eye.svg"
+import download from "../imgs/download.svg"
 import "../CSS/styles.css"
-
-
 
 export const Details = () => {
     return (
@@ -14,7 +12,6 @@ export const Details = () => {
         <div className="dashboard">
           <p>Dashboard</p>
         </div>
-
         <div className="tabs">
           <div className="summary-tab">
             <p>

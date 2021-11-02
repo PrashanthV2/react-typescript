@@ -1,7 +1,7 @@
 import  "../CSS/styles.css"
-import top from "./imgs/top.png"
-import logo from "./imgs/logo.png"
-import bottom from "./imgs/bottom.png"
+import top from "../imgs/top.png"
+import logo from "../imgs/logo.png"
+import bottom from "../imgs/bottom.png"
 
 export const MicroBank = () => {
     return (

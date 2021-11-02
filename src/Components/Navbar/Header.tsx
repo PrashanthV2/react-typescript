@@ -1,14 +1,12 @@
 import React from 'react'
-import micro_bank from "./imgs/micro_bank.svg";
-import bell from "./imgs/bell.png";
-import arrow from "./imgs/down_arrow.svg";
+import micro_bank from "../imgs/micro_bank.svg";
+import bell from "../imgs/bell.png";
+import arrow from "../imgs/down_arrow.svg";
 import { Link } from 'react-router-dom';
 
 
 
 export const Header = () => {
-
-   
     return (
       <>
         <nav className="nav-bar">
