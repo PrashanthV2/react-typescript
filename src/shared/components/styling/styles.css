@@ -1,0 +1,814 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Orbitron:wght@900&display=swap");
+/* Desktop styling */
+/* container */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Dashboard */
+
+
+.nav-bar {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+}
+
+.nav-logo {
+  padding: 20px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-items {
+  margin-left: 75%;
+  display: flex;
+}
+.nav-list li {
+  list-style: none;
+  padding: 15px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #d90429;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+.mob-nav {
+  display: none;
+}
+.mobile-services-heading {
+  display: none;
+}
+.mobile-available-services {
+  display: none;
+}
+
+.dashboard p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  padding: 0.5% 2.5%;
+}
+.tabs {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  width: 95%;
+  margin: auto;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.approved{
+  color:#008000
+}
+.rejected{
+  color:#FF0000
+}
+.summary {
+  margin: 0 35px 0 0;
+  background: #ffffff;
+  border-top: 2px solid #e8544b;
+}
+.summary p {
+  padding: 8px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.details {
+  background: #ffffff;
+  border-top: 2px solid #ffffff;
+}
+.details p {
+  padding: 10px 0;
+}
+.details p a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.summary-details {
+  margin: 1% 2.5%;
+  background: #fff0f3;
+  border: 1px solid rgba(217, 4, 41, 0.2);
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+}
+.summary-details p {
+  color: #1a1a1a;
+  padding: 0.5% 2%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+.mob-info {
+  display: none;
+}
+
+.sum-info {
+  display: flex;
+  padding: 1% 2%;
+  gap: 10%;
+}
+.sum-info li {
+  list-style: none;
+  font-weight: normal;
+  font-size: 18px;
+}
+.sum-info li span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.sum-info li p {
+  color: #333333;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.info {
+  display: flex;
+  padding: 5px 2%;
+  gap: 10%;
+}
+.info li {
+  list-style: none;
+  font-weight: normal;
+  font-size: 16px;
+}
+.info li span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.info li p {
+  color: #333333;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.services-heading h3 {
+  margin: 1% 2.5%;
+  font-size: 14px;
+}
+.services-heading span {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.mobile-current-services {
+  display: none;
+}
+
+.current-services {
+  margin: 1% 2.5%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 1%;
+}
+.current-services h5 {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0.5% 2%;
+}
+.info li span img {
+  height: 40px;
+  width: 50px;
+}
+.footer {
+  position: absolute;
+  width: fit-content;
+  height: 16px;
+  left: 689px;
+  top: 731px;
+  font-size: 14px;
+  text-align: center;
+  color: #1a1a1a;
+}
+/* login */
+.container {
+  display: flex;
+  width: 100%;
+}
+
+/* logo styling */
+.logo-container {
+  width: 50%;
+  position: fixed;
+  left: 0%;
+  right: 50%;
+  top: 0%;
+  bottom: 0%;
+  background: #d90429;
+}
+
+.spirit-logo {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 150px;
+  top: 124px;
+}
+.top-img {
+  position: fixed;
+  width: 227px;
+  height: 227px;
+}
+.bottom-img {
+  position: fixed;
+  width: 200px;
+  height: 150px;
+  left: 532px;
+  top: 555px;
+}
+.heading {
+  position: absolute;
+  width: 401px;
+  height: 80px;
+  left: 180px;
+  top: 550px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+.heading a {
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* login */
+
+.login-container {
+  width: 50%;
+  position: absolute;
+  width: 380px;
+  height: 549px;
+  left: 855px;
+  top: 130px;
+  margin: 0 5%;
+  padding: 1%;
+  color: #1a1a1a;
+
+}
+
+.login-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 5px;
+}
+.helper-text {
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+  padding: 10px 10px 10px 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+}
+.login-input label {
+  padding: 10px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+}
+.login-input {
+  padding: 2%;
+}
+.login-input img {
+  position: absolute;
+  bottom: 280px;
+  right: 50px;
+  width: 24px;
+  height: 24px;
+}
+
+.login-input input {
+  width: 320px;
+  height: 45px;
+  margin: 10px 0;
+  border: 0;
+  outline: none;
+  background: #e8e8e8;
+  border-radius: 12px;
+  padding: 0 10px 0 10px;
+}
+
+.date-input {
+  position: absolute;
+  bottom: 165px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+}
+.c-pw-input {
+  position: absolute;
+  bottom: -135px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+}
+.pw-input {
+  position: absolute;
+  bottom: 65px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+}
+.cpw-input {
+  position: absolute;
+  bottom: -35px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+}
+.forgot-text {
+  text-align: right;
+}
+.forgot-text a {
+  font-size: 12px;
+  color: #d90429;
+  margin-right: 6%;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+}
+.login-btn {
+  background: #d90429;
+  box-shadow: 0px 6px 28px 5px rgba(254, 45, 23, 0.3);
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  width: 320px;
+  height: 40px;
+  padding: 2.5%;
+  margin: 5% 10px;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+}
+.create-account {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  line-height: 19px;
+  color: #828282;
+  padding: 5% 0%;
+  margin-left: -30px;
+}
+.create-account span a {
+  text-decoration: none;
+  color: #d90429;
+}
+
+/* signup container */
+
+.signup-container {
+  width: 50%;
+  position: absolute;
+  width: 380px;
+  height: 90vh;
+  left: 855px;
+  top: 40px;
+  margin: 0 5%;
+  padding: 1%;
+}
+
+/* details container */
+.transaction-container {
+  width: 95%;
+  height: fit-content;
+  left: 24px;
+  top: 233px;
+  margin: 1% 2.5%;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 1% 0;
+  font-size: 14px;
+}
+.details-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+  color: #828282;
+  margin: 1% 2.5%;
+  align-items: center;
+}
+.details-heading {
+  list-style: none;
+}
+.details-data {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2.5%;
+  background: rgba(244, 245, 253, 0.5);
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 4px 4px 0px 0px;
+  padding: 5px;
+}
+.details-data img {
+  padding: 5px;
+  margin: 0 5px;
+}
+.summary-tab {
+  margin: 0 35px 0 0;
+  background: #ffffff;
+  border-top: 2px solid #ffffff;
+}
+.summary-tab p {
+  padding: 8px 0;
+}
+.summary-tab p a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.details-tab {
+  background: #ffffff;
+  border-top: 2px solid #e8544b;
+}
+.details-tab p {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+/* modal */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* rating */
+
+.rating {
+  float: left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+  clip: rect(0, 0, 0, 0);
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  width: 1em;
+  padding: 0 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 200%;
+  line-height: 1.2;
+  color: #ddd;
+  text-shadow: 1px 1px #bbb, 2px 2px #666, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.rating > input:checked ~ label {
+  color: #f70;
+  text-shadow: 1px 1px #c60, 2px 2px #940, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: gold;
+  text-shadow: 1px 1px goldenrod, 2px 2px #b57340,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #ea0;
+  text-shadow: 1px 1px goldenrod, 2px 2px #b57340,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating > label:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+/* end of Lea's code */
+
+/*
+ * Clearfix from html5 boilerplate
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* my stuff */
+#status,
+button {
+  margin: 20px 0;
+}
+
+/* mobile responsive */
+
+@media only screen and (max-device-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  .nav-bar {
+    width: 360px;
+    background: #d90429;
+  }
+  .nav-bar li {
+    list-style: none;
+  }
+  .nav-logo {
+    display: none;
+  }
+  .nav-items {
+    display: none;
+  }
+  .mob-nav {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-mobile {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: -55px;
+  }
+  .hamburger div {
+    width: 36px;
+    height: 2.5px;
+    background-color: #ffffff;
+    margin: 6px 0 0 15px;
+  }
+
+  .mob-logout {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 10px;
+  }
+  .dashboard {
+    display: none;
+  }
+  .tabs {
+    margin: 5px;
+    color: #d90429;
+    box-shadow: 0;
+    border-radius: 0;
+    width: 360px;
+  }
+  .details p {
+    color: #8d99ae;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .summary-details p {
+    display: none;
+  }
+  .summary-details {
+    background: #ffffff;
+    border: 0;
+    box-shadow: 0;
+  }
+  .sum-info {
+    display: none;
+  }
+  .summary {
+    margin: 0 25px 0 0;
+    background: #ffffff;
+    border-bottom: 2px solid #e8544b;
+    border-top: 0;
+  }
+
+  .mob-info {
+    width: 342px;
+    height: fit-content;
+    display: grid;
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2% 3%;
+    color: #2b2d42;
+    font-size: 18px;
+  }
+  .mob-info li {
+    list-style: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 8px 2px;
+  }
+  .income-bg span {
+    background: #2b2d42;
+    color: #ffffff;
+    padding: 1px 100px 0 2px;
+    margin-left: 50px;
+  }
+  .spends-bg span {
+    background: #ef233c;
+    color: #ffffff;
+    padding: 1px 50px 0 2px;
+    margin-left: 50px;
+  }
+  .services-heading {
+    display: none;
+  }
+  .current-services {
+    display: none;
+  }
+  .mobile-services-heading {
+    display: block;
+  }
+  .mobile-services-heading p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 10px;
+  }
+  .mobile-services-heading span {
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .mobile-current-services {
+    display: block;
+    width: 342px;
+    height: 140px;
+    margin: 1.5% 2.5%;
+    background: #2b2d42;
+    border-radius: 5px;
+  }
+  .mobile-current-services p {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 9px 2%;
+  }
+  .mobile-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1% 2%;
+    background: #ffffff;
+    margin: 2%;
+    border-radius: 5px;
+  }
+  .mobile-info li {
+    width: fit-content;
+    list-style: none;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+  }
+  .mobile-info li span {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.38);
+  }
+  .mobile-info li p {
+    color: #333333;
+    font-size: 14px;
+    padding: 5px 0;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .mobile-info li span img {
+    height: 30px;
+    width: 35px;
+    margin: 8px;
+  }
+  .mobile-available-services {
+    display: block;
+    width: 360px;
+    height: 150px;
+  }
+  .mobile-available-services p {
+    padding: 2px 10px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .available-info {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 2%;
+    padding: 3%;
+  }
+  .available-info li {
+    list-style: none;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .available-info p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .available-info li img {
+    height: 30px;
+    width: 35px;
+    margin-top: 10px;
+  }
+}
